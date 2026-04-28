@@ -16,7 +16,7 @@ This project implements the Producer-Consumer problem using:
 ### How to Run
 
 ```bash
-gcc project412/prodcon.c -o prodcon -pthread
+gcc prodcon.c -lpthread -o prodcon
 ./prodcon
 ```
 
